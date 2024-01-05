@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Your Name - Personal Website</title>
+</head>
+<body>
+    <header>
+        <h1>Deniz Kultur</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#game">Memory Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="your-photo.jpg" alt="Your Name">
+            <div>
+                <h2>About Me</h2>
+                <p>My name is Deniz Kultur. I was born in Istanbul, lived in Istanbul, Moscow, Diyarbakir and I currently live in Istanbul.I am a computer engineering student right now at ITU.</p>
+                <h2>My Academic Interests</h2>
+                <p>My academic interests are artificial intelligence, game development.</p>
+            </div>
+        </div>
+    </section>
+    <section id="game">
+		
+        <div class="container">
+            <h2>Memory Game</h2>
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="restartGame()">Restart</button>
+            <p id="score">Score: 0</p>
+            <div id="game-board">
+                <!-- Cards will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
